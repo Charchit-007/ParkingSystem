@@ -1,0 +1,56 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+.env
+.venv/
+venv/
+ENV/
+
+# =========================
+# Flutter / Dart
+# =========================
+parking_app/.dart_tool/
+parking_app/.flutter-plugins
+parking_app/.flutter-plugins-dependencies
+parking_app/.packages
+parking_app/build/
+parking_app/pubspec.lock
+
+# Android (Flutter)
+parking_app/android/.gradle/
+parking_app/android/local.properties
+parking_app/android/app/build/
+parking_app/android/key.properties
+
+# iOS (Flutter)
+parking_app/ios/Pods/
+parking_app/ios/.symlinks/
+parking_app/ios/Flutter/Generated.xcconfig
+parking_app/ios/Flutter/flutter_export_environment.sh
+parking_app/ios/Flutter/ephemeral/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
