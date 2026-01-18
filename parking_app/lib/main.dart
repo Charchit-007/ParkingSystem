@@ -33,7 +33,7 @@ class ParkingService {
   final String host;
   final int port;
 
-  ParkingService({this.host = '127.0.0.1', this.port = 5555});
+  ParkingService({this.host = '192.168.1.6', this.port = 5555});
 
   Future<Map<String, dynamic>> sendRequest(Map<String, dynamic> request) async {
     try {
