@@ -54,3 +54,10 @@ Thumbs.db
 # =========================
 *.tmp
 *.bak
+
+parking_app/.metadata
+parking_app/linux/
+parking_app/macos/
+parking_app/test/
+parking_app/web/
+parking_app/windows/
