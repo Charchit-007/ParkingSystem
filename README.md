@@ -27,9 +27,8 @@ Flutter Mobile App → WiFi/Network → Python Socket Server → SQLite Database
 
 ```
 ParkingBookingSystem/
-├── init_db.py          # Database initialization
+├── Init_DB_Park.py          # Database initialization
 ├── Park_Server.py      # Python socket server
-├── test_client.py      # Python test client
 └── parking_app/        # Flutter mobile application
     └── lib/
         └── main.dart
